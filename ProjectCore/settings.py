@@ -45,6 +45,12 @@ INSTALLED_APPS = [
 
     # tedka musime dat makemigrations, cimz rikame djangu, ze jsme udelali zmenu v modelech a ze chceme,
     # aby to ulozil jako migraci - pak to najdeme v appce v podslozce migrations
+
+    # """
+    #     The reason that there are separate commands to make and apply migrations is because you’ll commit migrations
+    #     to your version control system and ship them with your app; they not only make your development easier, they’re
+    #     also usable by other developers and in production.
+    # """
     'polls',
 ]
 
